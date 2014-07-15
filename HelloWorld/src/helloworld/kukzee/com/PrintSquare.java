@@ -1,5 +1,7 @@
 package helloworld.kukzee.com;
 
+import utils.kukzee.com.TextIO;
+
 /**
  * A program that reads an integer that is typed in by the
  * user and computes and prints the square of that integer.
