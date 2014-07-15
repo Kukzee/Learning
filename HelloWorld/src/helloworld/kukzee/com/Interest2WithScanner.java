@@ -23,7 +23,7 @@ public class Interest2WithScanner {
       
       System.out.print("The value of the investment after one year is $");
       System.out.println(principal);
-      
+      stdin.close();
    } // end of main()
    
 } // end of class Interest2With Scanner
