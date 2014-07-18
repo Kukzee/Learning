@@ -1,12 +1,18 @@
 package helloworld.kukzee.com;
 
+import java.util.Map;
+
+import utils.kukzee.com.TextIO;
+
 public class Test {
-	enum Suit { SPADE, DIAMOND, CLUB, HEART };
+	enum Day { MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY }
 	public static void main(String[] args) {
+		int alphaBet;
+		String str;
 		
-		
-		Suit A;
-		A = Suit.valueOf("club");
-		System.out.println(A+"A");
+		for (Day d: Day.values()){
+		System.out.println(d);
+		System.out.println(d.ordinal());
+		}
 	}
 }
